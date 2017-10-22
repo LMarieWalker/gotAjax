@@ -6,10 +6,38 @@
 
 }
 
+header {
+  max-width: 300px;
+  margin: 5px auto 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+.line {
+  border-top: 3px solid gray;
+  margin: 40px 300px 0 300px;
+}
+
+/*.searchInput {
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  flex-basis: 30%;
+  background-color: lightblue;
+}*/
+
 .notFound {
-  max-width: 1400px;
+  max-width: 500px;
   padding: 20px 0 20px 0;
-  margin: 40px auto 0 auto;
+  margin: 5px auto 0 auto;
   border: 1px solid black;
   background-color: lightpink;
 }

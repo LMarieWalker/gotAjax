@@ -8,7 +8,31 @@
     <script src='./script.js'></script>
   </head>
   <body>
+    <div class="header">
+      <h1>Search for Characters or Houses</h1>
+      <header>
+        <div class="searchInput">
+          <input id="searchInput" placeholder="enter id"/>
+        </div>
+        <div class="searchInput">
+          <button id="searchButton"> Find It! </button>
+        </div>
+        <div class="searchInput">
+          <button id="clearButton"> Clear Form </button>
+        </div>
+      </header>
+    </div>
 
+    <div class="line"></div>
+
+    <div id="mainCharCard" class="mainCard"></div>
+    <div id="mainHouseCard" class="mainCard"></div>
+    <div class="line"></div>
+
+    <div class="header">
+      <h1>Charachters and Houses Not Found</h1>
+      <div id="notFound" class="notFound"></div>
+    </div>
 
   </body>
 </html>
